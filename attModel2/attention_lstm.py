@@ -5,6 +5,8 @@ from keras.models import *
 
 from attention_utils import get_activations, get_data_recurrent
 
+'''code from https://github.com/deepak-kaji/mimic-lstm/blob/master/attention_function.py'''
+
 INPUT_DIM = 2
 TIME_STEPS = 20
 # if True, the attention vector is shared across the input_dimensions where the attention is applied.
